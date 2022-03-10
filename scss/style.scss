@@ -1,0 +1,68 @@
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Rosario:wght@300&display=swap');
+
+body {
+    font-family:'Open Sans', sans-serif ;
+}
+
+a#nav__a {
+    font-family: 'Rosario', sans-serif;
+    font-weight: 300;
+    color: $white;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark{
+    background-color: $naranja;
+}
+
+div#navbarNavAltMarkup {
+    color: white;
+}
+
+a.nav-link.active {
+    color: white;
+}
+
+.nav-link--border {
+    border-right: 1px solid #000000;
+
+}
+
+a.nav-link {
+    color: $black;
+}
+
+.nav-link:hover {
+    color: $naranja;
+}
+
+ul.nav.justify-content-center.body__ul.shadow.p-4.mb-4.bg-white.container-fluid {
+    font-size: small;
+}
+//acerca de mi
+.main__img--size {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+h2 {
+    font-family: 'Rosario', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav-link--border {
+        border-right: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .nav-link--align {
+        text-align: center;
+    }
+  }
